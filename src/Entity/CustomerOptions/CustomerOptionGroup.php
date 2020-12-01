@@ -185,9 +185,9 @@ class CustomerOptionGroup implements CustomerOptionGroupInterface
     }
 
     /**
-     * @return CustomerOptionGroupTranslationInterface
+     * @return TranslationInterface
      */
-    public function createTranslation(): CustomerOptionGroupTranslationInterface
+    public function createTranslation(): TranslationInterface
     {
         return new CustomerOptionGroupTranslation();
     }
